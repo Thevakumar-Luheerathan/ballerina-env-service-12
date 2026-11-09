@@ -17,5 +17,5 @@ service / on new http:Listener(port) {
     // GET /healthz -> simple health check.
     resource function get healthz() returns string {
         return "ok";
-    }
+    }   
 }

@@ -1,4 +1,4 @@
-# ballerina-env-service. 
+# ballerina-env-service
 
 A minimal Ballerina HTTP service that reads the `GREETING` environment variable.
 

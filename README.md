@@ -16,3 +16,5 @@ bal build
 GREETING="Hi there" bal run
 curl localhost:8080/greeting
 ```
+
+If `GREETING` is unset or empty, `/greeting` returns `Hello from Ballerina (GREETING not set)`.
